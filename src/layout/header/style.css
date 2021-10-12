@@ -1,0 +1,14 @@
+.header {
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  transition: transform 4s;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+}

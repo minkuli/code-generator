@@ -1,0 +1,23 @@
+.mynav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav_active {
+  background-color: #ddd;
+  color: black;
+}

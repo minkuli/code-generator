@@ -1,0 +1,31 @@
+.tab {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  color: black;
+}
+
+.tab:hover {
+  background-color: black;
+  color: white;
+}
+
+.code {
+  background-color: lightgray;
+  width: 50%;
+  margin: 1rem 0rem;
+  display: block;
+}
+
+.line {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+input {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input:hover {
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.select {
+  margin: 10px;
+}
+
+.form {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    width: 100%;
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+  }
+}
